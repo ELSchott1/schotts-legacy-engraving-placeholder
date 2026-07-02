@@ -19,3 +19,4 @@ This repository hosts a simple single-page placeholder for Schotts Legacy Engrav
 - Build command: `npm run build`
 - Output directory: `dist`
 - Production branch: `main`
+ 
