@@ -6,6 +6,8 @@ Temporary placeholder website for Schotts Legacy Engraving. This page is intende
 
 - `index.html` - main placeholder page
 - `styles.css` - styling for the placeholder page
+- `package.json` - optional Cloudflare Pages build command support
+- `scripts/build.mjs` - copies static files into `dist`
 
 ## Purpose
 
@@ -14,6 +16,6 @@ This repository hosts a simple single-page placeholder for Schotts Legacy Engrav
 ## Cloudflare Pages
 
 - Framework preset: None
-- Build command: None
-- Output directory: `/`
+- Build command: `npm run build`
+- Output directory: `dist`
 - Production branch: `main`
