@@ -21,3 +21,4 @@ This repository hosts a simple single-page placeholder for Schotts Legacy Engrav
 - Production branch: `main`
 
 Cloudflare Pages deploys this placeholder automatically whenever changes are pushed to the `main` branch.
+
