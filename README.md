@@ -20,3 +20,4 @@ This repository hosts a simple single-page placeholder for Schotts Legacy Engrav
 - Output directory: `dist`
 - Production branch: `main`
  
+
