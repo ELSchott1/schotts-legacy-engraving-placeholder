@@ -1,8 +1,9 @@
 {
-  "name": "schotts-legacy-engraving-placeholder",
+  "name": "schotts-legacy-engraving",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node scripts/build.mjs"
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve-local.mjs dist 8080"
   }
 }
