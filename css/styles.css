@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Engravers Old English";
+  src: local("Engravers Old English"), local("Engravers Old English BT"), local("Old English Text MT");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-navy: #083b78;
   --color-blue: #0d4f9c;
@@ -10,7 +18,7 @@
   --color-charcoal: #2b2a27;
   --color-gray: #706c66;
   --font-heading: "Libre Baskerville", Georgia, serif;
-  --font-display: "UnifrakturCook", "Old English Text MT", Georgia, serif;
+  --font-display: "Engravers Old English", "Engravers Old English BT", "Old English Text MT", "UnifrakturCook", Georgia, serif;
   --font-body: "Inter", Arial, sans-serif;
   --shadow-soft: 0 18px 40px rgba(8, 59, 120, 0.12);
 }
@@ -417,7 +425,7 @@ textarea:focus-visible {
 
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
   gap: 14px;
 }
 
@@ -933,7 +941,9 @@ textarea:focus-visible {
   }
 
   .brand-name {
-    font-size: 1.72rem;
+    max-width: 13ch;
+    font-size: clamp(1.18rem, 5vw, 1.5rem);
+    line-height: 0.96;
   }
 
   .brand-tagline {
@@ -956,6 +966,24 @@ textarea:focus-visible {
     background: var(--color-white);
   }
 
+  .hero h1,
+  .page-hero h1 {
+    max-width: 10ch;
+    font-size: clamp(2rem, 8vw, 2.55rem);
+    overflow-wrap: break-word;
+  }
+
+  .eyebrow {
+    max-width: 270px;
+    font-size: 0.78rem;
+    letter-spacing: 0.05em;
+    overflow-wrap: anywhere;
+  }
+
+  .hero p {
+    max-width: 310px;
+  }
+
   .hero-copy::before {
     display: none;
   }
@@ -974,6 +1002,16 @@ textarea:focus-visible {
   .hero-image-wrap::after {
     height: 88px;
     bottom: -46px;
+  }
+
+  .estimate-banner {
+    gap: 12px;
+    font-size: clamp(1rem, 4vw, 1.25rem);
+    line-height: 1.25;
+  }
+
+  .estimate-banner span {
+    max-width: 230px;
   }
 
   .service-grid,
@@ -1044,7 +1082,7 @@ textarea:focus-visible {
   }
 
   .brand {
-    padding-right: 48px;
+    padding-right: 0;
   }
 
   .brand {

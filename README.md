@@ -1,6 +1,6 @@
 # Schotts Legacy Engraving Website
 
-Static website for Schotts Legacy Engraving, a custom sandblasted stone engraving business serving Northeast Florida and South Georgia. Deployed through Cloudflare Pages.
+Static website for Schotts Legacy Engraving, a custom sandblasted stone engraving business serving North East Florida. Deployed through Cloudflare Pages.
 
 ## Files
 
@@ -40,7 +40,7 @@ The local preview serves the generated `dist` folder at `http://127.0.0.1:8080/`
 
 ## Image Credits
 
-Temporary web imagery was sourced from Unsplash and can be replaced later with company-owned project photos:
+Most service and gallery imagery is supplied by Schotts Legacy Engraving. Remaining temporary background imagery was sourced from Unsplash and can be replaced later with company-owned project photos:
 
 - Raihan Kibria: https://unsplash.com/photos/inl2Ty-VZlw
 - Phil Hearing: https://unsplash.com/photos/eII8pjg3684
